@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <!-- Remix Icon -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+        <title>BookMark</title>
+    </head>
+    <body>
+        <!-- ** NAVBAR ** -->
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__logo--sm">
+                    <a href="/" class="nav__link nav__logo"
+                        ><img src="assets/imgs/Logo-green.png" alt="Logo"
+                    /></a>
+                </div>
+                <div class="menu">
+                    <i class="ri-menu-line"></i>
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About us</a>
+                    </li>
+                    <li class="nav__item nav__item--logo">
+                        <a href="/" class="nav__link nav__logo"
+                            ><img src="assets/imgs/Logo-green.png" alt="Logo"
+                        /></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#books" class="nav__link">Books</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- ** HEADER ** -->
+        <header class="header">
+            <div class="container">
+                <div class="header__text-box">
+                    <h1 class="header__heading heading--primary scale-step-6">
+                        Discover Your <br />
+                        Next Favorite <span>Book</span>
+                    </h1>
+                    <p class="header__desc">
+                        Welcome to BookMark, where every page brings a new
+                        adventure. Explore our curated selection of books, from
+                        timeless classics to the latest bestsellers.
+                    </p>
+                    <button class="btn btn--primary">Explore Now</button>
+                </div>
+                <div class="header__img-box">
+                    <img
+                        src="assets/imgs/header_img.png"
+                        alt="Kids reading books"
+                        class="header__img"
+                    />
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="section__about">
+                <div class="container">
+                    <!-- ** ABOUT US SECTION ** -->
+                    <div class="about--left">
+                        <h2
+                            class="heading--secondary about__heading scale-step-5"
+                        >
+                            About us
+                        </h2>
+                        <p class="about__desc about__desc--welcome">
+                            Welcome to BookMark, your neighborhood haven for
+                            book lovers. We are more than just a bookstore; we
+                            are a community of readers and storytellers united
+                            by our love for literature. Our mission is to
+                            provide a carefully curated selection of books that
+                            inspire, educate, and entertain.
+                        </p>
+                        <p class="about__desc about__desc--mission">
+                            At BookMark, our mission is to foster a deep
+                            appreciation for reading by offering a diverse range
+                            of books that cater to all tastes and interests. We
+                            strive to create a welcoming space where readers of
+                            all ages can discover new favorites, engage in
+                            thoughtful conversations, and participate in
+                            enriching events
+                        </p>
+                        <button class="btn btn--primary">See Books</button>
+                    </div>
+                    <div class="about--right">
+                        <img
+                            src="assets/imgs/about_img.png"
+                            alt="A Book Reader"
+                            class="about__img"
+                        />
+                        <div class="about__sold">
+                            <p>+50,000</p>
+                            <p>Books Sold</p>
+                        </div>
+                        <div class="about__readers">
+                            <p>+20,000</p>
+                            <p>Happy Readers</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ** BOOKS ** -->
+            <section class="section__books">
+                <h2 class="heading--secondary books__heading scale-step-5">
+                    Our Books
+                </h2>
+                <div class="container">
+                    <div class="books--left">
+                        <div class="books__price"><p>$10.99</p></div>
+                        <div class="books__details">
+                            <h3 class="books__name scale-step-3">
+                                To Kill A Mockingbird
+                            </h3>
+                            <p class="books__desc">
+                                Harper Lee’s classic novel of a young girl
+                                growing up in the racially charged American
+                                South. It's a deeply moving story about
+                                morality, justice, and empathy.
+                            </p>
+
+                            <div class="books__price--sm">$10.99</div>
+                            <div class="books__img-box">
+                                <img
+                                    src="assets/imgs/to-kill-a-mockingbird.png"
+                                    alt="Books"
+                                    class="books__img--sm"
+                                />
+                            </div>
+                            <button class="btn btn--primary books__btn">
+                                Buy Now
+                            </button>
+
+                            <div class="books__btns">
+                                <span
+                                    class="books__icon books__icon--inactive books__btn--previous"
+                                    ><i class="ri-arrow-left-line"></i
+                                ></span>
+                                <span class="books__icon books__btn--next"
+                                    ><i class="ri-arrow-right-line"></i
+                                ></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="books--right">
+                        <img
+                            src="assets/imgs/to-kill-a-mockingbird.png"
+                            alt="Books"
+                            class="books__img"
+                        />
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer--left">
+                    <img
+                        src="assets/imgs/Logo.png"
+                        alt="Logo"
+                        class="footer__logo"
+                    />
+
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#home" class="footer__link">Home</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#about" class="footer__link">About us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#books" class="footer__link">Books</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#Contact" class="footer__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer--right">
+                    <span class="footer__icon"
+                        ><i class="ri-facebook-circle-fill"></i></span
+                    ><span class="footer__icon"
+                        ><i class="ri-instagram-fill"></i></span
+                    ><span class="footer__icon"
+                        ><i class="ri-linkedin-box-fill"></i
+                    ></span>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="assets//js/script.js"></script>
+</html>
